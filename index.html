@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plataforma de IA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="container" class="flex-column">
+        <div id="content" class="flex-column">
+          <div id="texts" class="flex-column">
+            <span><img src="./assets/magic-wand.svg" width="25px" height="25px" alt="A svg for magic wand"></span>
+            <h1>Experimente o poder da Inteligência Artificial</h1>
+          </div>
+          <nav id="card-wrapper">
+            <ul class="cards">
+              <li class="card">
+                <span class="icon"><i class="ph ph-code"></i></span>
+                <p>Gerador de códigos</p>
+                <span><i class="ph ph-arrow-right"></i></span>
+              </li>
+              <li class="card">
+                <span class="icon"><i class="ph ph-image-square"></i></span>
+                <p>Edição de foto</p>
+                <span><i class="ph ph-arrow-right"></i></span>
+              </li>
+              <li class="card">
+                <span class="icon"><i class="ph ph-play-circle"></i></span>
+                <p>Geração de vídeos</p>
+                <span><i class="ph ph-arrow-right"></i></span>
+              </li>
+              <li class="card">
+                <span class="icon"
+                  ><i class="ph ph-music-notes-simple"></i
+                ></span>
+                <p>Criador de áudios e musícas</p>
+                <span><i class="ph ph-arrow-right"></i></span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="divider"></div>
+        <form class="form">
+          <div class="input">
+            <span>
+              <i class="ph ph-plus-circle"></i>
+            </span>
+            <input
+              type="text"
+              placeholder="Envie uma mensagem ou digite “/” para exibir os comandos "
+            />
+          </div>
+          <button class="btn" type="submit">
+            <i class="ph ph-paper-plane-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
